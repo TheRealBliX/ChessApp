@@ -1,0 +1,21 @@
+D:\Projects\Chess\Chess\obj\Debug\Chess.csproj.AssemblyReference.cache
+D:\Projects\Chess\Chess\obj\Debug\Chess.Board.resources
+D:\Projects\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\Projects\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\Projects\Chess\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Projects\Chess\Chess\bin\Debug\Chess.exe.config
+D:\Projects\Chess\Chess\bin\Debug\Chess.exe
+D:\Projects\Chess\Chess\bin\Debug\Chess.pdb
+D:\Projects\Chess\Chess\obj\Debug\Chess.exe
+D:\Projects\Chess\Chess\obj\Debug\Chess.pdb
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.csproj.AssemblyReference.cache
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.Board.resources
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.exe
+D:\Десюкевич Ярослав ООП\Chess\Chess\obj\Debug\Chess.pdb
+D:\Десюкевич Ярослав ООП\Chess\Chess\bin\Debug\Chess.exe.config
+D:\Десюкевич Ярослав ООП\Chess\Chess\bin\Debug\Chess.exe
+D:\Десюкевич Ярослав ООП\Chess\Chess\bin\Debug\Chess.pdb
+D:\Projects\Chess\Chess\obj\Debug\Chess.Menu.resources

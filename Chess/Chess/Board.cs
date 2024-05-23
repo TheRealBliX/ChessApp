@@ -228,7 +228,6 @@ namespace Chess
         private void GiveUpButton_Click(object sender, EventArgs e)
         {
             currentPlayer.Status = Status.Loser;
-            GM.PlayerWhoGiveUp = currentPlayer;
             GM.GetNextPlayer(currentPlayer).Status = Status.Winner;
             DeclareEndOfGame();
         }

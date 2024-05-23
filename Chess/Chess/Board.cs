@@ -407,6 +407,7 @@ namespace Chess
                 GM.LastMove = move;
                 currentPlayer.Status = Status.Winner;
                 GM.GetNextPlayer(currentPlayer).Status = Status.Loser;
+                currentPlayer = GM.GetNextPlayer(currentPlayer);
                 DeclareEndOfGame();
             }
 

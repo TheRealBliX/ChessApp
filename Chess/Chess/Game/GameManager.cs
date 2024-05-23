@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -25,6 +25,8 @@ namespace Chess
         internal List<string> AllMovesTextRepresentation{ get; set; }
         internal Move LastMove { get; set; }
 
+        internal Player PlayerWhoGiveUp {  get; set; }
+
         internal bool IsHKMOn { get; }
 
         internal GameManager(Color mainColor, string nameOfPlayer1, Color secondColor, string nameOfPlayer2, bool isHKMON)
@@ -35,6 +37,8 @@ namespace Chess
             Player1 = new Player(nameOfPlayer1, MainColor);
             Player2 = new Player(nameOfPlayer2, SecondColor);
             None = new Player("", Color.Red);
+
+            PlayerWhoGiveUp = None;
 
             IsHKMOn = isHKMON;
 
@@ -336,6 +340,10 @@ namespace Chess
                         amountOfMovesWithoutTakes++;
                     }
                 }
+                else
+                {
+                    amountOfMovesWithoutTakes = 0;
+                }
             }
 
             if (amountOfMovesWithoutTakes >= 50)
@@ -346,12 +354,16 @@ namespace Chess
 
         internal string GetGameText()
         {
-            var result = "[Chess by BliX]\n";
+            var result = "[Chess by BliX]\n\n";
+
             result += $"{Player1.Name}: {Player1.Status}\n-Remaining time: {Player1.Time}\n" +
                       $"{Player2.Name}: {Player2.Status}\n-Remaining time: {Player2.Time}\n\n";
 
             foreach (var moves in AllMovesTextRepresentation)
                 result += moves;
+
+            if (PlayerWhoGiveUp != None)
+                result += $"[{PlayerWhoGiveUp.Name} give up]";
 
             return result;
         }
